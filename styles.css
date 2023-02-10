@@ -1,0 +1,52 @@
+body{
+    background-image: url(images/Premium\ Vector\ _\ Mobile\ app\ development\ background.jpeg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+h1{
+   
+   position: relative;
+   padding: 20px;
+   line-height: 10px;
+   text-shadow: 3px;
+   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.btn{
+    position: relative;
+    margin: 0 40px;
+}
+
+.container-fluid{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content:center;
+    align-items: center;
+    padding: 50px;
+    margin: 40px;
+}
+
+.pic{
+    width: 250px;
+    height: 250px;
+    flex: 200px;
+    transition: 0.5s;
+}
+
+.pic:hover{
+    opacity: 70%;
+}
+
+.txt{
+    font-size: 50px;
+    transition: 1s;
+}
+
+.txt:hover{
+
+    -webkit-text-stroke: 4px #000;
+    color:transparent;
+
+}

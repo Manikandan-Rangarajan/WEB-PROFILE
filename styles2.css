@@ -1,0 +1,53 @@
+body{
+    background-image:url("images/Untitled\ design\ pic.png");
+    background-repeat: repeat;
+    background-size: cover;
+    display : flex;
+
+}
+
+.row h1{
+    color:  rgb(220, 250, 53);
+    font-family: 'Secular One', sans-serif;
+    font-size: 50px;
+    text-shadow: 10px 10px #000;
+    text-align: center;
+}
+
+.col{
+    padding: 30px;
+    margin: 100px;
+}
+
+.col h3{
+    color: rgb(5, 246, 165);
+    font-family: 'Secular One', sans-serif;
+    font-size: 40px;
+    text-shadow: 5px 5px #000;
+}
+
+.col h1{
+    color:  rgb(220, 250, 53);
+    font-family: 'Secular One', sans-serif;
+    font-size: 50px;
+    text-shadow: 20px 10px #000;
+}
+
+.img{
+    width: 200px;
+    height: 200px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+.img:hover{
+    opacity: 70%;
+}
+
+.word{
+    text-shadow: 10px 20px #000;
+}
+
+.word:hover{
+    background-color: transparent;
+}

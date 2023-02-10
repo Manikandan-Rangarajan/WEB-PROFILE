@@ -1,0 +1,26 @@
+body{
+    background-image:url("images/Untitled\ design\ pic.png");
+    background-repeat: repeat-y;
+    background-size: cover;
+    display : flex;
+    
+}
+
+.col h1{
+    color:  rgb(220, 250, 53);
+    font-family: 'Secular One', sans-serif;
+    font-size: 60px;
+    text-shadow: 10px 5px #000;
+}
+ 
+.col h3{
+    color: #fff;
+    font-family: 'Secular One', sans-serif;
+    font-size: 26px;
+    text-shadow: 4px 5px #000;
+}
+
+.col{
+    padding: 30px;
+    margin: 100px;
+}
